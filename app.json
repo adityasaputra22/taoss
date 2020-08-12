@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "TAOSS",
+    "slug": "TAOSS",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./source/images/logo-icon.png",
+    "splash": {
+      "image": "./source/images/splashfix.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#002171"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.TA14.TAOSS",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"],
+      "package": "com.TA14.TAOSS",
+      "versionCode": 2,
+       "config": {
+      "googleMaps": {
+        "apiKey": "AIzaSyAa3qFDLSrYeczPOolUFlRK5qSCz4lk7OI"
+        }
+      }
+    }
+  }
+}
